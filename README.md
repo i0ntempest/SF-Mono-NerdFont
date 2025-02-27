@@ -1,11 +1,7 @@
 # SF-Mono-Nerd-Font
 
-Apple's SF Mono font patched with [the Nerd Fonts patcher](https://github.com/ryanoasis/nerd-fonts#font-patcher) v3.3.0 (4.18.2), with every symbol groups patched in (`--complete`)
+![Screenshot](Screenshot.png)
 
-## Patch command:
-
-```shell
-docker run --rm -v /Users/Admin/Downloads/SF-Mono:/in -v /Users/Admin/Downloads/SF-Mono-NerdFont:/out nerdfonts/patcher --complete 
-```
+Apple's SF Mono font patched with [the Nerd Fonts patcher](https://github.com/ryanoasis/nerd-fonts#font-patcher) [Docker Image](https://hub.docker.com/r/nerdfonts/patcher), with every symbol groups patched in (`--complete`). The screenshot is a showcase the new glyphs using SuperFile.
 
 Original font's copyright belongs to Apple Inc.
